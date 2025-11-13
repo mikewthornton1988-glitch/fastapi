@@ -1,6 +1,28 @@
+# FastAPI Core and Server
 fastapi[all]
-uvicorn
-openai
+uvicorn[standard]
 gunicorn
-python
-jinja
+
+# Async HTTP Clients
+httpx
+aiohttp
+aiofiles
+
+# OpenAI and AI Dependencies
+openai
+tiktoken
+python-dotenv
+
+# Template Engine
+jinja2
+
+# Async Database Support (optional)
+asyncpg
+aiomysql
+motor
+
+# Additional Async Utilities
+python-multipart
+pydantic[email]
+python-jose[cryptography]
+passlib[bcrypt]
