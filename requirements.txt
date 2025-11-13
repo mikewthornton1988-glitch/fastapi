@@ -1,6 +1,6 @@
-fastapi[all]
+fastapi
 uvicorn
 openai
 gunicorn
-python
+python multipart
 jinja
